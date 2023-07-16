@@ -48,7 +48,7 @@
 
 <h2>Connected users</h2>
 
-<p>List of users that are currently connected</p>
+<p>List of users that are currently connected.</p>
 
 <div class="details-wrap">
     <details role="list" bind:open={is_details_open}>
