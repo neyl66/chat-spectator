@@ -1,0 +1,24 @@
+{
+    "name": "chat-spectator",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@sveltejs/vite-plugin-svelte": "^2.4.2",
+        "svelte": "^4.0.3",
+        "vite": "^4.4.0"
+    },
+    "dependencies": {
+        "@picocss/pico": "^1.5.10",
+        "cron-schedule": "^4.0.0",
+        "dayjs": "^1.11.9",
+        "humanize-duration": "^3.29.0",
+        "lowdb": "^6.0.1",
+        "tmi.js": "^1.8.5"
+    }
+}

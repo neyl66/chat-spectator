@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>Twitch chat spectator</title>
+
+        <!-- Load `toast` and `SvelteToast` into global scope. -->
+        <script src="https://cdn.jsdelivr.net/npm/@zerodevx/svelte-toast"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                new SvelteToast({
+                    target: document.querySelector("#error-toasts"),
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div id="error-toasts"></div>
+        <div id="app"></div>
+        <script type="module" src="/src/main.js"></script>
+    </body>
+</html>
